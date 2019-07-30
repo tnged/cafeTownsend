@@ -1,3 +1,5 @@
+package stepdefs;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -7,5 +9,5 @@ import org.junit.runner.RunWith;
         features = {"src/test/resource"}
 )
 
-public class TestRunner {
+public class TestRunnerSteps {
 }
